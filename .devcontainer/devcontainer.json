@@ -1,0 +1,9 @@
+{
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+ "postCreateCommand": "/workspaces/testdemo/scripts/setup"
+
+}
+
