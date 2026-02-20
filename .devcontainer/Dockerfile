@@ -1,10 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:alpine-3.20
-
-# FROM ghcr.io/devcontainers/templates/alpine:3.4.0  
-
-# FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
-
-
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 COPY --from=jdxcode/mise /usr/local/bin/mise /usr/local/bin/
 
